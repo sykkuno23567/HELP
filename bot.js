@@ -41,7 +41,7 @@ fs.readdir(__dirname + "/botcmd/commands/", (err, files) => {
     });
 });
 
-client.login(process.env.token).catch(err => console.log(chalk.red.bold(err)))
+client.login./config/bot").token).catch(err => console.log(chalk.red.bold(err)))
 require("http").createServer((_, res) => res.end("SKY SERVER")).listen(8080)
 
 let i;
